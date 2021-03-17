@@ -1,0 +1,32 @@
+{
+  "name": "my-ts-lib",
+  "version": "0.0.0",
+  "description": "My awesome typescript library",
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "exports": {
+    "require": "./dist/index.js",
+    "import": "./dist/index.mjs"
+  },
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs,esm --dts-resolve",
+    "test": "jest",
+    "prepublishOnly": "npm run build"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@egoist/prettier-config": "^0.1.0",
+    "@sucrase/jest-plugin": "^2.0.0",
+    "@types/jest": "^26.0.20",
+    "jest": "^26.6.3",
+    "prettier": "^2.2.1",
+    "tsup": "^4.8.4",
+    "typescript": "^4.2.3"
+  }
+}
