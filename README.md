@@ -8,7 +8,8 @@
 
 ## Using this template
 
-Search `my-ts-lib` and replace it with your custom package name.
+- Search `my-ts-lib` and replace it with your custom package name.
+- Search `egoist` and replace it with your name.
 
 Features: 
 
