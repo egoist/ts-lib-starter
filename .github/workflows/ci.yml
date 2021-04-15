@@ -47,8 +47,7 @@ jobs:
         run: npm run test
 
       - name: Release
-        run: pnpx semantic-release --branches main
-        if: "contains(github.event.head_commit.message, 'publish release')"
+        run: pnpx -y semantic-release --branches main
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
