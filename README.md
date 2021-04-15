@@ -2,9 +2,19 @@
 
 ---
 
-# ts-lib-starter
+# my-ts-lib
 
 [![npm version](https://badgen.net/npm/v/express)](https://npm.im/express)
+
+## Using this template
+
+Search `my-ts-lib` and replace it with your custom package name.
+
+Features: 
+
+- Release with [semantic-release](https://npm.im/semantic-release)
+- Bundle with [tsup](https://github.com/egoist/tsup)
+- Test with [jest](https://jestjs.io/)
 
 
 ## Install
