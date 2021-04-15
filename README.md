@@ -4,20 +4,19 @@
 
 # my-ts-lib
 
-[![npm version](https://badgen.net/npm/v/express)](https://npm.im/express)
+[![npm version](https://badgen.net/npm/v/my-ts-lib)](https://npm.im/my-ts-lib)
 
 ## Using this template
 
 - Search `my-ts-lib` and replace it with your custom package name.
 - Search `egoist` and replace it with your name.
 
-Features: 
+Features:
 
 - Package manager [pnpm](https://pnpm.js.org/), safe and fast
 - Release with [semantic-release](https://npm.im/semantic-release)
 - Bundle with [tsup](https://github.com/egoist/tsup)
 - Test with [jest](https://jestjs.io/)
-
 
 ## Install
 
