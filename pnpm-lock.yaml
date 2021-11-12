@@ -6,7 +6,7 @@ specifiers:
   '@types/jest': 27.0.2
   jest: 27.3.1
   prettier: 2.4.1
-  tsup: 5.6.0
+  tsup: 5.7.0
   typescript: 4.4.4
 
 devDependencies:
@@ -15,7 +15,7 @@ devDependencies:
   '@types/jest': 27.0.2
   jest: 27.3.1
   prettier: 2.4.1
-  tsup: 5.6.0_typescript@4.4.4
+  tsup: 5.7.0_typescript@4.4.4
   typescript: 4.4.4
 
 packages:
@@ -2897,8 +2897,8 @@ packages:
     resolution: {integrity: sha512-Y/arvbn+rrz3JCKl9C4kVNfTfSm2/mEp5FSz5EsZSANGPSlQrpRI5M4PKF+mJnE52jOO90PnPSc3Ur3bTQw0gA==}
     dev: true
 
-  /tsup/5.6.0_typescript@4.4.4:
-    resolution: {integrity: sha512-W4ylYYEZeIcAO2YIhP2fA5vg8dOGhgAbTJJCR5fMlPtDjxflLfbI/LUyix/sYy/5uNch6h12RNMzw8vISzppZg==}
+  /tsup/5.7.0_typescript@4.4.4:
+    resolution: {integrity: sha512-Rt83NU4t3e0I2WyubR3doAAl/aijzNYVgWB8cZxem/6MfoutrOFssm6L8eMVIGvPPOYsDDVcAvXLwn+CUgeRAQ==}
     hasBin: true
     peerDependencies:
       typescript: ^4.2.3
