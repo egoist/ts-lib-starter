@@ -3,7 +3,7 @@ lockfileVersion: 5.3
 specifiers:
   '@egoist/prettier-config': 0.1.0
   '@sucrase/jest-plugin': 2.2.0
-  '@types/jest': 27.0.2
+  '@types/jest': 27.0.3
   jest: 27.3.1
   prettier: 2.4.1
   tsup: 5.7.2
@@ -12,7 +12,7 @@ specifiers:
 devDependencies:
   '@egoist/prettier-config': 0.1.0
   '@sucrase/jest-plugin': 2.2.0
-  '@types/jest': 27.0.2
+  '@types/jest': 27.0.3
   jest: 27.3.1
   prettier: 2.4.1
   tsup: 5.7.2_typescript@4.5.2
@@ -642,8 +642,8 @@ packages:
       '@types/istanbul-lib-report': 3.0.0
     dev: true
 
-  /@types/jest/27.0.2:
-    resolution: {integrity: sha512-4dRxkS/AFX0c5XW6IPMNOydLn2tEhNhJV7DnYK+0bjoJZ+QTmfucBlihX7aoEsh/ocYtkLC73UbnBXBXIxsULA==}
+  /@types/jest/27.0.3:
+    resolution: {integrity: sha512-cmmwv9t7gBYt7hNKH5Spu7Kuu/DotGa+Ff+JGRKZ4db5eh8PnKS4LuebJ3YLUoyOyIHraTGyULn23YtEAm0VSg==}
     dependencies:
       jest-diff: 27.3.1
       pretty-format: 27.3.1
