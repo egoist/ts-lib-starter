@@ -6,7 +6,7 @@ specifiers:
   '@types/jest': 27.0.2
   jest: 27.3.1
   prettier: 2.4.1
-  tsup: 5.7.2
+  tsup: 5.7.3
   typescript: 4.5.2
 
 devDependencies:
@@ -15,7 +15,7 @@ devDependencies:
   '@types/jest': 27.0.2
   jest: 27.3.1
   prettier: 2.4.1
-  tsup: 5.7.2_typescript@4.5.2
+  tsup: 5.7.3_typescript@4.5.2
   typescript: 4.5.2
 
 packages:
@@ -2642,8 +2642,8 @@ packages:
       glob: 7.1.6
     dev: true
 
-  /rollup/2.58.3:
-    resolution: {integrity: sha512-ei27MSw1KhRur4p87Q0/Va2NAYqMXOX++FNEumMBcdreIRLURKy+cE2wcDJKBn0nfmhP2ZGrJkP1XPO+G8FJQw==}
+  /rollup/2.60.0:
+    resolution: {integrity: sha512-cHdv9GWd58v58rdseC8e8XIaPUo8a9cgZpnCMMDGZFDZKEODOiPPEQFXLriWr/TjXzhPPmG5bkAztPsOARIcGQ==}
     engines: {node: '>=10.0.0'}
     hasBin: true
     optionalDependencies:
@@ -2897,8 +2897,8 @@ packages:
     resolution: {integrity: sha512-Y/arvbn+rrz3JCKl9C4kVNfTfSm2/mEp5FSz5EsZSANGPSlQrpRI5M4PKF+mJnE52jOO90PnPSc3Ur3bTQw0gA==}
     dev: true
 
-  /tsup/5.7.2_typescript@4.5.2:
-    resolution: {integrity: sha512-YxryYjhB54h8YUNlN7Oze9PnqcuN++vwrFW6qtjC1ve9eQPvzCJw0rN0WPOuEQXburwo+gtDid9C4eQZ6x/Yog==}
+  /tsup/5.7.3_typescript@4.5.2:
+    resolution: {integrity: sha512-vdcxyJ/yEOp0CM2GH1toh6n6Tc0QAShHar2FwOMszJgsRWwc9BnI92XwMB52Fz9Y/W5JRFFgtVs+gR+VTOFLtA==}
     hasBin: true
     peerDependencies:
       typescript: ^4.2.3
@@ -2916,7 +2916,7 @@ packages:
       joycon: 3.0.1
       postcss-load-config: 3.0.1
       resolve-from: 5.0.0
-      rollup: 2.58.3
+      rollup: 2.60.0
       sucrase: 3.20.3
       tree-kill: 1.2.2
       typescript: 4.5.2
