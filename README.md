@@ -18,6 +18,8 @@ Features:
 - Bundle with [tsup](https://github.com/egoist/tsup)
 - Test with [uvu](https://github.com/lukeed/uvu)
 
+To skip CI (GitHub action), add `skip-ci` to commit message. To skip release, add `skip-release` to commit message.
+
 ## Install
 
 ```bash
