@@ -6,7 +6,7 @@ specifiers:
   '@types/jest': 27.0.3
   jest: 27.3.1
   prettier: 2.4.1
-  tsup: 5.8.1
+  tsup: 5.9.1
   typescript: 4.5.2
 
 devDependencies:
@@ -15,7 +15,7 @@ devDependencies:
   '@types/jest': 27.0.3
   jest: 27.3.1
   prettier: 2.4.1
-  tsup: 5.8.1_typescript@4.5.2
+  tsup: 5.9.1_typescript@4.5.2
   typescript: 4.5.2
 
 packages:
@@ -890,6 +890,14 @@ packages:
 
   /buffer-from/1.1.1:
     resolution: {integrity: sha512-MQcXEUbCKtEo7bhqEs6560Hyd4XaovZlO/k9V3hjVUF/zwW7KBVdSK4gIt/bzwS9MbR5qob+F5jusZsb0YQK2A==}
+    dev: true
+
+  /bundle-require/2.1.3_esbuild@0.13.9:
+    resolution: {integrity: sha512-aBLb/RHIZ9l3jAAGCTl/32m6bOQc3bmMbf6hfw+e6kcZnJL1E5i+MhmgBgBWK90CN9XeOBa/1bh6TiSLgk8New==}
+    peerDependencies:
+      esbuild: '>=0.13'
+    dependencies:
+      esbuild: 0.13.9
     dev: true
 
   /cac/6.7.2:
@@ -2897,8 +2905,8 @@ packages:
     resolution: {integrity: sha512-Y/arvbn+rrz3JCKl9C4kVNfTfSm2/mEp5FSz5EsZSANGPSlQrpRI5M4PKF+mJnE52jOO90PnPSc3Ur3bTQw0gA==}
     dev: true
 
-  /tsup/5.8.1_typescript@4.5.2:
-    resolution: {integrity: sha512-3oXF5+xBZ0U11ExifMD6MwXxdkBVLdjkqTyEZxTB5oPy50W2Lv0ikKBUXlbJMbPQE8/v7ITvy/uPQS55kg1Z2Q==}
+  /tsup/5.9.1_typescript@4.5.2:
+    resolution: {integrity: sha512-MWUykojp5MmcewspCLgXHjEdAwJHKbnsRUUfUvU0kxmz8TpspQY1H1TgPoErk0Hu/u9S86rruSfxSiqNEjpmxQ==}
     hasBin: true
     peerDependencies:
       typescript: ^4.2.3
@@ -2906,8 +2914,8 @@ packages:
       typescript:
         optional: true
     dependencies:
+      bundle-require: 2.1.3_esbuild@0.13.9
       cac: 6.7.2
-      chalk: 4.1.0
       chokidar: 3.5.1
       debug: 4.3.1
       esbuild: 0.13.9
