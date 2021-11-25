@@ -16,9 +16,10 @@
   },
   "types": "./dist/index.d.ts",
   "scripts": {
-    "build": "tsup src/index.ts --format cjs,esm --dts-resolve",
-    "test": "uvu -r sucrase/register --ignore fixture",
-    "prepublishOnly": "npm run build"
+    "build-fast": "tsup src/index.ts --format cjs,esm",
+    "build": "pnpm run build-fast -- --dts-resolve",
+    "test": "pnpm run build && uvu -r sucrase/register --ignore fixture",
+    "prepublishOnly": "pnpm run build-fast"
   },
   "license": "MIT",
   "devDependencies": {
