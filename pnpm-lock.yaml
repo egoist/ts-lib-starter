@@ -3,10 +3,10 @@ lockfileVersion: 5.3
 specifiers:
   '@egoist/prettier-config': 0.1.0
   prettier: 2.4.1
-  sucrase: ^3.20.3
+  sucrase: 3.20.3
   tsup: 5.9.2
   typescript: 4.5.2
-  uvu: ^0.5.2
+  uvu: 0.5.2
 
 devDependencies:
   '@egoist/prettier-config': 0.1.0
