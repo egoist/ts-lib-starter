@@ -4,7 +4,7 @@ specifiers:
   '@egoist/prettier-config': 1.0.0
   prettier: 2.5.1
   sucrase: 3.20.3
-  tsup: 5.11.0
+  tsup: 5.11.1
   typescript: 4.5.2
   uvu: 0.5.2
 
@@ -12,7 +12,7 @@ devDependencies:
   '@egoist/prettier-config': 1.0.0
   prettier: 2.5.1
   sucrase: 3.20.3
-  tsup: 5.11.0_typescript@4.5.2
+  tsup: 5.11.1_typescript@4.5.2
   typescript: 4.5.2
   uvu: 0.5.2
 
@@ -857,8 +857,8 @@ packages:
     resolution: {integrity: sha512-Y/arvbn+rrz3JCKl9C4kVNfTfSm2/mEp5FSz5EsZSANGPSlQrpRI5M4PKF+mJnE52jOO90PnPSc3Ur3bTQw0gA==}
     dev: true
 
-  /tsup/5.11.0_typescript@4.5.2:
-    resolution: {integrity: sha512-iy74qlWklvBJfEICApr4voHSMGrR/KfBWJSC8K1a9l8ks8Sle46vSP9d83T+qX5ZlDSlQc8Pd1V8ScZ8dyvUgw==}
+  /tsup/5.11.1_typescript@4.5.2:
+    resolution: {integrity: sha512-4J1kknLCT7dlVoyoGwSl62cUo7QIar89pdOFhK5V5T81M9G2MR1WFbPlFnc6kHC10qgLBeoJdjnrnscJn9yc/w==}
     hasBin: true
     peerDependencies:
       typescript: ^4.2.3
