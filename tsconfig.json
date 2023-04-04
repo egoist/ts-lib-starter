@@ -11,6 +11,8 @@
     "allowJs": true,
     "noEmit": true,
     "outDir": "dist",
-    "resolveJsonModule": true
+    "resolveJsonModule": true,
+
+    "types": ["vitest/globals"]
   }
 }
